@@ -123,4 +123,7 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'root_user_first_email' => env('ROOT_USER_FIRST_EMAIL'),
+    'root_user_first_password' => env('ROOT_USER_FIRST_PASSWORD'),
+    
 ];
